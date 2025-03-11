@@ -1,0 +1,108 @@
+{
+    "regularTasks": [
+      {
+        "id": "reg1",
+        "title": "Review project requirements",
+        "description": "Go through the project specifications and identify any unclear points",
+        "status": "completed",
+        "completed": true
+      },
+      {
+        "id": "reg2",
+        "title": "Update documentation",
+        "description": "Update the README file with the latest changes",
+        "status": "pending",
+        "completed": false
+      },
+      {
+        "id": "reg3",
+        "title": "Send status report",
+        "description": "Email the weekly status report to the team",
+        "status": "pending",
+        "completed": false
+      },
+      {
+        "id": "reg4",
+        "title": "Set up development environment",
+        "description": "Install and configure all required tools for the project",
+        "status": "in-progress",
+        "completed": false
+      }
+    ],
+    "priorityTasks": [
+      {
+        "id": "pri1",
+        "title": "Fix login bug",
+        "description": "Address the issue with user authentication in the login screen",
+        "status": "in-progress",
+        "completed": false,
+        "priority": "high"
+      },
+      {
+        "id": "pri2",
+        "title": "Prepare for client demo",
+        "description": "Prepare slides and demo script for the upcoming client presentation",
+        "status": "pending",
+        "completed": false,
+        "priority": "urgent"
+      },
+      {
+        "id": "pri3",
+        "title": "Review security vulnerabilities",
+        "description": "Check the security report and address critical issues",
+        "status": "pending",
+        "completed": false,
+        "priority": "high"
+      },
+      {
+        "id": "pri4",
+        "title": "Optimize database queries",
+        "description": "Improve performance of slow database operations",
+        "status": "pending",
+        "completed": false,
+        "priority": "medium"
+      },
+      {
+        "id": "pri5",
+        "title": "Update third-party libraries",
+        "description": "Update dependencies to their latest versions",
+        "status": "pending",
+        "completed": false,
+        "priority": "low"
+      }
+    ],
+    "recurringTasks": [
+      {
+        "id": "rec1",
+        "title": "Team status meeting",
+        "description": "Participate in the daily team standup meeting",
+        "status": "pending",
+        "completed": false,
+        "frequency": "daily"
+      },
+      {
+        "id": "rec2",
+        "title": "Code review session",
+        "description": "Review pull requests from team members",
+        "status": "pending",
+        "completed": false,
+        "frequency": "weekly"
+      },
+      {
+        "id": "rec3",
+        "title": "Generate monthly report",
+        "description": "Prepare and distribute the monthly progress report",
+        "status": "pending",
+        "completed": false,
+        "frequency": "monthly"
+      },
+      {
+        "id": "rec4",
+        "title": "Backup project data",
+        "description": "Run the backup script for all project data",
+        "status": "pending",
+        "completed": false,
+        "frequency": "weekly"
+      }
+    ]
+  }
