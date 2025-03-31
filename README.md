@@ -57,7 +57,7 @@ The lab includes a set of tests that verify the correctness of your implementati
 
 ## Lab Requirements
 
-all this code should be written in the `tasks.ts` file
+all this code should be written in the `tasks.ts` file.  **no other files should need to be modified for this lab**.
 
 ### Part 1: Define Type Structures
 1. Create interfaces for different task types:
@@ -77,6 +77,8 @@ all this code should be written in the `tasks.ts` file
    - Update task status
    - Filter tasks by status
    - Get all tasks
+
+Carefully read the test files to understand the shape of the classes to be implemented
 
 2. Implement a generic `filterTasks<T extends BaseTask>` function that can filter tasks based on a provided criteria function
 
@@ -104,6 +106,7 @@ A sample JSON file (`sampleTasks.json`) is provided with example tasks of each t
 - `npm test` - Runs all tests
 - `npm start` - Runs the demo application with the sample data
   - You can specify a different file: `npm start -- path/to/your/tasks.json`
+- `npm run grade` - Runs the grading script to check your implementation against the grading criteria
 
 ## Submission Requirements
 To complete this lab, you must:
@@ -113,10 +116,10 @@ To complete this lab, you must:
 4. Submit the link to your repository
 
 ## Grading Criteria
-- Correct implementation of interfaces and type aliases (25%)
-- Proper use of generics (25%)
-- Functionality of task managers and utility functions (25%)
-- Passing all tests (25%)
-
+- Correct implementation of interfaces and type aliases (1)
+- Proper use of generics (1)
+- Functionality of task managers and utility functions (1)
+- Passing all tests (1)
+- Pushed to github; `npm grade` (`npm run build &  npm test pass & npm run start`) works without errors(1)
 
 Good luck!
