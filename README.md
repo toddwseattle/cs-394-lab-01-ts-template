@@ -23,7 +23,7 @@ This lab is designed to help you understand how to define and use TypeScript typ
 
 Also useful:
 - [Introduction to NPM package manager](https://nodejs.org/en/learn/getting-started/an-introduction-to-the-npm-package-manager)
-- [Running Typescript Code with NodeJs](https://nodejs.org/en/learn/getting-started/an-introduction-to-the-npm-package-manager)  Note: we this repository is already set up to run typescript code with nodejs using the transpiler method.
+- [Running Typescript Code with NodeJs](https://nodejs.org/en/learn/getting-started/an-introduction-to-the-npm-package-manager)  Note: this repository is already set up to run typescript code with nodejs using the transpiler method.
 - [Jest Documentation](https://jestjs.io/docs/getting-started)
 
 ## Setup Instructions
