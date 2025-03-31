@@ -4,8 +4,9 @@
  * This file demonstrates how to use the task management system.
  * It accepts a file path to a JSON file containing tasks as a command-line argument.
  * 
- * Usage: ts-node src/index.ts <path-to-tasks-file>
- * Example: ts-node src/index.ts ./sampleTasks.json
+ * Usage: npm run start 
+ * Example: npm run start -- ./sampleTasks.json
+ * can use your own json file instead of sampleTasks.json
  */
 
 import fs from 'fs';
@@ -129,7 +130,7 @@ function runTaskManagement(filePath: string) {
   }
 }
 
-// Get the file path from command line arguments
+// Get the file path from command line arguments, by default use the json in the repository
 const filePath = process.argv[2] || './sampleTasks.json';
 
 // Run the task management system
